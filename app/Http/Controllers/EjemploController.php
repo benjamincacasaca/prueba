@@ -16,8 +16,6 @@ class EjemploController extends Controller
 
         $listaEjemplos = Ejemplo::orderBy('cod','desc')->get();
         $listaUsuarios = User::where('active','1')->get();
-        $listaUsuarios = User::where('active','1')->get();
-        $listaUsuarios = User::where('active','1')->get();
         Session::put('item', '2.');
         return view("adminTemplate.ejemplo.index", compact('listaEjemplos','listaUsuarios'));
     }
