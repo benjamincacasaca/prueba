@@ -4,7 +4,7 @@
 //                                         RUTAS DE EJEMPLO
 // ========================================================================================
 
-// Ruta para el index (vista principal y listado)
+// Ruta para el index (vista principal y liasdasstado)
 Route::get('/ejemplo', 'EjemploController@index')->name('ejemplo.index');
 // Ruta para mostrar los datos generales de un registro
 Route::get('/ejemplo/show/{id}', 'EjemploController@index')->name('ejemplo.index');
