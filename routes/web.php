@@ -9,7 +9,7 @@ Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 /*
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Web R
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
